@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { Route,  BrowserRouter as Router, Routes } from 'react-router-dom';
+import { Route,  HashRouter as Router, Routes } from 'react-router-dom';
 import { startCheking } from '../actions/auth';
 import { LoginScreen } from '../components/auth/LoginScreen'
 import { CalendarScreen } from '../components/calendar/CalendarScreen';
